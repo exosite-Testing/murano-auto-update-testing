@@ -1,0 +1,30 @@
+formatversion: 1.0.0
+info:
+	name: QA testing murano auto update
+	summary: TBD
+	description: |
+		QA testing auto update
+	authors: ["testing@exosite.com"]
+	version: 1.1.0
+
+assets:
+	location: assets
+	include: '*.*'
+	exclude: ['**/.*']
+	default_page: index.html
+
+endpoints:
+	location: endpoints
+	include: '**/*.lua'
+	exclude: ['*_test.lua', '*_spec.lua']
+
+services:
+	location: services
+	include: '**/*.lua'
+
+modules:
+	location: modules
+	include: '**/*.lua'
+	exclude: ['*_test.lua', '*_spec.lua']
+
+init_script: init.lua
