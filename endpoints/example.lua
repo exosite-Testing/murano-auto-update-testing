@@ -6,3 +6,6 @@ print("Fetch a given user" .. request.parameters.userId)
 
 --#ENDPOINT GET /hi
 return 'Hi'
+
+--#ENDPOINT GET /hi2
+return 'Hi2222'
