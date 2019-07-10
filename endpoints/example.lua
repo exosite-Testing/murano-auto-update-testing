@@ -5,4 +5,7 @@ print("Creating a new user")
 print("Fetch a given user" .. request.parameters.userId)
 
 --#ENDPOINT GET /hi
-return 'Hi'
+return 'HIHIHIH'
+
+--#ENDPOINT GET /ninatest
+return 'nina testing auto updated'
