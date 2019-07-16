@@ -6,3 +6,6 @@ print("Fetch a given user" .. request.parameters.userId)
 
 --#ENDPOINT GET /hi
 return 'HIHIHIH'
+
+--#ENDPOINT GET /ninatest
+return 'nina testing auto updated'
