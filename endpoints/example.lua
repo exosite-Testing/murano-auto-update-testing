@@ -8,4 +8,4 @@ print("Fetch a given user" .. request.parameters.userId)
 return 'HIHIHIH'
 
 --#ENDPOINT GET /ninatest
-return 'nina testing auto updated'
+return 'nina testing auto updated change you!!!'
