@@ -1,0 +1,7 @@
+headers:
+  content-security-policy: "img-src data: blob"
+## Default value
+#  content-security-policy: "frame-ancestors 'self'; img-src data: blob: *; media-src data: blob: *; default-src 'unsafe-inline' 'unsafe-eval' 'self' data: blob: fonts.googleapis.com"
+
+#documented_endpoints:
+#  - interface
