@@ -9,3 +9,6 @@ return 'HIHIHIH'
 
 --#ENDPOINT GET /ninatest
 return 'nina latest false~~~~!!!! '
+
+--#ENDPOINT GET /harveytest
+return 'helloworld~~~~ '
