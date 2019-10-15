@@ -25,9 +25,9 @@ info:
 # Examples follow.
 #
 ####
-#options:
-#  abort_threshold: 3
-#  abort_ratio: 0.5
+options:
+  abort_threshold: 3
+  abort_ratio: 0.5
 
 assets:
   location: assets
