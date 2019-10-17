@@ -8,7 +8,7 @@ print("Fetch a given user" .. request.parameters.userId)
 return 'HIHIHIH'
 
 --#ENDPOINT GET /ninatest
-return 'nina latest false~~~~!!!! hihihihi '
+return 'change this everytime latest false~~~~!!!! hihihihi '
 
 --#ENDPOINT GET /harveytest
 return 'helloworld~~~~ '
